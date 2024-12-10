@@ -1,0 +1,21 @@
+﻿CREATE TABLE Lojas (
+    Codigo INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(100),
+    Endereco NVARCHAR(200),
+    Estado NVARCHAR(50),
+    Email NVARCHAR(100),
+    LojaCodigo NVARCHAR(50),
+    CdMunicipio NVARCHAR(50),
+    CPF_CNPJ NVARCHAR(50),
+    Pais NVARCHAR(50),
+    Numero NVARCHAR(100),
+    CEP NVARCHAR(20),
+    HomePage NVARCHAR(100),
+    Bairro NVARCHAR(100),
+    Municipio NVARCHAR(100),
+    DDD NVARCHAR(10),
+    FisicaJuridica NVARCHAR(10),
+    TipoEndereco NVARCHAR(50),
+    Telefone NVARCHAR(20),
+    DataAbertura DATE
+);
